@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>My Own CheatSheet</h1>
+    </header>
+
+    <h2>Table Tags</h2>
+    <table class="table tags">
+      <thead>
+        <th>Tag</th>
+        <th>Name</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="code">&lt;table&gt;</span></td>
+          <td>Table</td>
+          <td>The wrapper element for all HTML tables.</td>
+        </tr>
+
+        <tr>
+          <td><span class="code">&lt;thead&gt;</span></td>
+          <td>Table Head</td>
+          <td>The set of rows defining the column headers in a table.</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;tbody&gt;</span></td>
+          <td>Table Body</td>
+          <td>The set of rows containing actual table data.</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;tr&gt;</span></td>
+          <td>Table Row</td>
+          <td>The table row container.</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;td&gt;</span></td>
+          <td>Table Data</td>
+          <td>The table row container.</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;tfoot&gt;</span></td>
+          <td>Table Foot</td>
+          <td>The set of rows defining the footer in a table.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Table Attributes</h2>
+
+    <table class="table attributes">
+      <thead>
+        <th>Attribute</th>
+        <th>Name</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="code">colspan</span></td>
+          <td>Column Span</td>
+          <td>Defines how many columns a td element should span.</td>
+        </tr>
+        <tr>
+          <td><span class="code">rowspan</span></td>
+          <td>Row Span</td>
+          <td>Defines how many rows a td element should span.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>CSS selectors and specificity</h2>
+
+    <table class="table css-selectors">
+      <thead>
+        <th>Attribute</th>
+        <th>Name</th>
+        <th>Specificity</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="code">&lt;div style="..."&gt;</span></td>
+          <td>Inline Styles</td>
+          <td>Highest</td>
+        </tr>
+        <tr>
+          <td><span class="code">#myId</span></td>
+          <td>ID Selector</td>
+          <td>High</td>
+        </tr>
+        <tr>
+          <td><span class="code">.myClass</span></td>
+          <td>Class Selector</td>
+          <td>High</td>
+        </tr>
+        <tr>
+          <td><span class="code">[type="text"]</span></td>
+          <td>Attribute Selector</td>
+          <td>Medium</td>
+        </tr>
+        <tr>
+          <td><span class="code">p, div, span, etc.</span></td>
+          <td>Element Selector</td>
+          <td>Low</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Common CSS properties</h2>
+
+    <table class="table css-properties">
+      <thead>
+        <th>Property</th>
+        <th>Usage</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="code">color</span></td>
+          <td>color: red;</td>
+          <td>Sets the text color</td>
+        </tr>
+        <tr>
+          <td><span class="code">background-color</span></td>
+          <td>background-color: #f0f0f0;</td>
+          <td>Sets the background color of an element</td>
+        </tr>
+        <tr>
+          <td><span class="code">font-size</span></td>
+          <td>font-size: 16px;</td>
+          <td>Sets the size of the font</td>
+        </tr>
+        <tr>
+          <td><span class="code">font-family</span></td>
+          <td>font-family: Arial, sans-serif;</td>
+          <td>Sets the font family</td>
+        </tr>
+        <tr>
+          <td><span class="code">font-weight</span></td>
+          <td>font-weight: bold;</td>
+          <td>Sets the font weight</td>
+        </tr>
+        <tr>
+          <td><span class="code">text-align</span></td>
+          <td>text-align: center;</td>
+          <td>Sets the horizontal alignment of text within an element</td>
+        </tr>
+        <tr>
+          <td><span class="code">padding</span></td>
+          <td>padding: 10px;</td>
+          <td>Sets the padding (space) inside an element</td>
+        </tr>
+        <tr>
+          <td><span class="code">margin</span></td>
+          <td>margin: 20px;</td>
+          <td>Sets the margin (space) outside an element</td>
+        </tr>
+        <tr>
+          <td><span class="code">border</span></td>
+          <td>border: 1px solid #000;</td>
+          <td>Sets the border properties of an element</td>
+        </tr>
+        <tr>
+          <td><span class="code">width</span></td>
+          <td>width: 300px;</td>
+          <td>Sets the width of an element</td>
+        </tr>
+        <tr>
+          <td><span class="code">height</span></td>
+          <td>height: 200px;</td>
+          <td>Sets the height of an element</td>
+        </tr>
+        <tr>
+          <td><span class="code">display</span></td>
+          <td>
+            display: block; or<br />
+            display: inline-block;
+          </td>
+          <td>Specifies how an element should be displayed</td>
+        </tr>
+        <tr>
+          <td><span class="code">position</span></td>
+          <td>
+            position: relative; or<br />
+            position: absolute;
+          </td>
+          <td>Specifies the positioning method for an element</td>
+        </tr>
+        <tr>
+          <td><span class="code">float</span></td>
+          <td>
+            float: left; or<br />
+            float: right; or<br />
+            float: none;
+          </td>
+          <td>
+            Specifies whether an element should float to the left, right, or
+            none
+          </td>
+        </tr>
+        <tr>
+          <td><span class="code">overflow</span></td>
+          <td>
+            overflow: hidden; or <br />
+            overflow: scroll;
+          </td>
+          <td>Specifies how overflowing content should be handled</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

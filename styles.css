@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'Dina';
+  src: url(./Fonts/DinaRemasterCollection.ttc);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(220,220,220);
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+h2 {
+  color: rgb(126, 14, 126);
+}
+
+h1, h2 {
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-align: center;
+  margin: 2rem;
+}
+
+.table {
+  margin: auto;
+  width: 60%;
+  border-radius: 5px;
+  border: 2px solid rgb(99, 1, 99);
+}
+
+.tags {
+  margin-bottom: 2rem;
+}
+
+tr, td {
+  padding: 1rem;
+  border-top: 1px solid black;
+}
+
+th {
+  padding: 1rem;
+  letter-spacing: .1rem;
+  font-weight: 900;
+  background-color: rgb(221,160,221);
+}
+td {
+  line-height: 1.5em;
+}
+
+.table tr:hover {
+  color: rgb(58, 58, 58);
+  background-color: rgb(209, 208, 208);
+}
+
+.table th:hover {
+  color: rgb(0, 0, 0);
+}
+
+.table tr:last-child {
+  border: none;
+}
+
+.code {
+  border-radius: 2px;
+  background-color: rgba(241, 241, 203);
+  padding: 2px;
+  font-family: Dina;
+}
+
+.css-properties {
+  margin-bottom: 2rem;
+}
